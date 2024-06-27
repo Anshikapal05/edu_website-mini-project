@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contact Us</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo"  >
+         <img src="images/ScholarsLogo.png" alt="Website Logo" style="width: 100px; height: auto;"> </a>
+
+         <form action="search.html" method="post" class="search-form">
+            <input type="text" name="search_box" required placeholder="Search" maxlength="100">
+            <button type="submit" class="fas fa-search"></button>
+         </form>
+   
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars" ><acronym title="menu"></acronym></div>
+            <div id="search-btn" class="fas fa-search" ><acronym title="Search"></acronym></div>
+            <div id="user-btn" class="fas fa-user" ><acronym title="user"></acronym></div>
+            <div id="toggle-btn" class="fas fa-sun" ><acronym title="mode"></acronym></div>
+         </div>
+   
+         <div class="profile">
+            <img src="images/pic-1.jpg" class="image" alt="">
+            <h3 class="name">Daniel</h3>
+            <p class="role">Student</p>
+            <a href="profile.html" class="btn">View Profile</a>
+            <div class="flex-btn">
+               <a href="login.html" class="option-btn">Login</a>
+               <a href="register.html" class="option-btn">Register</a>
+            </div>
+         </div>
+      </section>
+   
+   </header>   
+   <div class="side-bar">
+      <div id="close-btn">
+         <i class="fas fa-times"></i>
+      </div>
+   
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">Daniel</h3>
+         <p class="role">Student</p>
+         <a href="profile.html" class="btn">view profile</a>
+      </div>
+   
+      <nav class="navbar">
+         <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+         <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+         <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+         <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Our Teachers</span></a>
+         <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+      </nav>
+   
+   </div>
+
+<section class="contact">
+
+   <div class="row">
+
+      <div class="image">
+         <img src="images/contact-img.svg" alt="">
+      </div>
+
+      <form action="" method="post">
+         <h3>Get in Touch With Us!</h3>
+         <h4>You can share your feedback too</h4>
+         <input type="text" placeholder="Name" name="name" required maxlength="50" class="box">
+         <input type="email" placeholder="Email" name="email" required maxlength="50" class="box">
+         <input type="number" placeholder="Number" name="number" required maxlength="20" class="box">
+         <textarea name="msg" class="box" placeholder="Message" required maxlength="1000" cols="25" rows="10"></textarea>
+         <input type="submit" value="send message" class="inline-btn" name="submit">
+      </form>
+
+   </div>
+
+   <div class="box-container">
+      <div class="box">
+         <i class="fas fa-envelope"></i>
+         <h3>Email Address</h3>
+         <a href="mailto:user@gmail.com">Harry@gmail.com</a>
+         <a href="mailto:user2@gmail.com">Anny@gmail.com</a>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-phone"></i>
+         <h3>Phone Numbers</h3>
+         <a href="tel:1234567890">123-456-7890</a>
+         <a href="tel:1112223333">111-222-3333</a>
+      </div>
+            <div class="box">
+         <i class="fas fa-map-marker-alt"></i>
+         <h3>Address</h3>
+         <a href="#">F-1 ,Block-D, A-1 building,Street Colony, Mumbai, India - 526080</a>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   &copy; copyright @ 2022 by <span>mr. web designer</span> | all rights reserved!
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
